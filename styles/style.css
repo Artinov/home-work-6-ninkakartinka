@@ -129,6 +129,11 @@
 	margin-left: 40px;
 }
 
+.headline-block.specular img{
+	float: left;
+	margin-right: 40px;
+}
+
 .headline-block h1{
 	font-weight: normal;
 	color: #5A5A5A;
