@@ -115,3 +115,31 @@
 	width: 80%;
 	margin: 40px 10%;
 }
+
+.headline-block {
+	width: 80%;
+    margin: 0 10%;
+    display: block;
+    min-height: 500px;
+}
+
+
+.headline-block img{
+	display: inline-block;
+	float: right;
+	margin-left: 40px;
+}
+
+.headline-block h1{
+	font-weight: normal;
+	color: #5A5A5A;
+}
+
+.headline-block h1 span{
+	color: #777777;
+}
+
+.headline-block p{
+	color: #5A5A5A;
+}
+
