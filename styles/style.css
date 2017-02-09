@@ -123,7 +123,6 @@
     min-height: 500px;
 }
 
-
 .headline-block img{
 	display: inline-block;
 	float: right;
@@ -143,3 +142,35 @@
 	color: #5A5A5A;
 }
 
+.footer {
+	width: 80%;
+    margin: 0 10% 40px 10%;
+}
+
+.footer .copyright {
+	color: #5A5A5A;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.footer ul li {
+	display: inline-block;
+}
+
+.footer ul li a {
+	color: #337AB7;
+	text-decoration: none;
+}
+
+.footer ul li a:before {
+	content: "•";
+	display: inline-block;
+    font-size: 10px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
+}
