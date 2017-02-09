@@ -47,7 +47,6 @@
 }
 
 .top .content {
-	// margin-top: 10%;
 	text-align: center;
 	color: #fff;
 	text-shadow: 0 1px 2px #222;
@@ -58,8 +57,14 @@
 	background-color: #337AB7;
 	border: 1px solid #337AB7;
 	border-radius: 3px;
+	cursor: pointer;
 	padding: 10px;
 	color: #fff;
+}
+
+.top .content button:hover {
+	background-color: #25669e;
+	border-color: #25669e;
 }
 
 .thumbnails {
@@ -102,10 +107,16 @@
 
 .thumbnails .block button {
 	border: 1px solid #777777;
-	padding: 10px;
-	color: #777777;
 	background-color: #fff;
 	border-radius: 3px;
+	cursor: pointer;
+	color: #777777;
+	padding: 10px;
+}
+
+.thumbnails .block button:hover {
+	background-color: #777777;
+	color: #fff;
 }
 
 .divider {
@@ -169,6 +180,10 @@
 .footer ul li a {
 	color: #337AB7;
 	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	text-decoration: underline;
 }
 
 .footer ul li a:before {
