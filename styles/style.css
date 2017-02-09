@@ -107,3 +107,11 @@
 	background-color: #fff;
 	border-radius: 3px;
 }
+
+.divider {
+	display: block;
+	height: 1px;
+	background-color: #EEEEEE;
+	width: 80%;
+	margin: 40px 10%;
+}
