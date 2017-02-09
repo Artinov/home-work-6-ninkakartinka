@@ -50,7 +50,7 @@
 	// margin-top: 10%;
 	text-align: center;
 	color: #fff;
-	text-shadow: 0 0 2px #222;
+	text-shadow: 0 1px 2px #222;
 	padding: 10% 20% 5% 20%;
 }
 
@@ -60,4 +60,50 @@
 	border-radius: 3px;
 	padding: 10px;
 	color: #fff;
+}
+
+.thumbnails {
+	font-size: 0px;
+	padding-top: 5%;
+	width: 80%;
+    margin: 0 10%;
+}
+
+.thumbnails .block {
+	vertical-align: top;
+	font-size: 14px;
+	display: inline-block;
+	max-width: calc(100% / 3 - 20px * 2);
+	text-align: center;
+	font-family: arial;
+	color: #777777;
+	padding: 0 30px;
+}
+
+.thumbnails .block:first-child {
+	padding-left: 0;
+}
+
+.thumbnails .block:last-child {
+	padding-right: 0;
+}
+
+.thumbnails .block .image {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #777777;
+	border-radius: 50%;
+}
+
+.thumbnails .block h1 {
+	font-weight: normal;
+}
+
+.thumbnails .block button {
+	border: 1px solid #777777;
+	padding: 10px;
+	color: #777777;
+	background-color: #fff;
+	border-radius: 3px;
 }
